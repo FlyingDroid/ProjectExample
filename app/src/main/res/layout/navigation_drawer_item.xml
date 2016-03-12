@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.weidukeji.agriculture.widget.navigationdrawer.NavigationDrawerItemView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itemRR"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@drawable/navigation_drawer_list_item_bg"
+    android:orientation="vertical"
+    android:padding="@dimen/default_small_padding">
+
+    <ImageView
+        android:id="@+id/navigationDrawerItemIconIV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:contentDescription="@string/content_description" />
+
+    <TextView
+        android:id="@+id/navigationDrawerItemTitleTV"
+        style="@style/Wrap"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="12dp"
+        android:layout_toRightOf="@id/navigationDrawerItemIconIV"
+        android:textColor="@color/gray"
+        android:textStyle="normal" />
+    <TextView
+        android:id="@+id/tv_menu_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/navigationDrawerItemTitleTV"
+        android:layout_below="@id/navigationDrawerItemTitleTV"
+        android:textSize="@dimen/text_size_micro"
+        android:visibility="gone"
+        />
+</com.weidukeji.agriculture.widget.navigationdrawer.NavigationDrawerItemView>

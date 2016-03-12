@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.weidukeji.agriculture.fragment.DiscoveryFragment">
+
+    <RelativeLayout
+        android:id="@+id/layout_today_report"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin">
+
+        <ImageView
+            android:id="@+id/img_nearby_video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:background="@drawable/ic_launcher"
+            android:contentDescription="@string/content_description" />
+
+        <TextView
+            android:id="@+id/tv_nearby_video_title"
+            style="@style/Wrap_text"
+            android:layout_toRightOf="@+id/img_nearby_video"
+            android:text="@string/today_report"
+            android:textSize="@dimen/text_size_medium" />
+
+        <TextView
+            style="@style/Wrap_text"
+            android:layout_alignBottom="@+id/img_nearby_video"
+            android:layout_below="@+id/tv_nearby_video_title"
+            android:layout_toRightOf="@+id/img_nearby_video"
+            android:text="@string/nearby_video_desc" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_nearby_chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin">
+
+        <ImageView
+            android:id="@+id/img_nearby_chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:background="@drawable/ic_launcher"
+            android:contentDescription="@string/content_description" />
+
+        <TextView
+            android:id="@+id/tv_nearby_chat_title"
+            style="@style/Wrap_text"
+            android:layout_toRightOf="@+id/img_nearby_chat"
+            android:text="@string/nearby_chat"
+            android:textSize="@dimen/text_size_medium" />
+
+        <TextView
+            style="@style/Wrap_text"
+            android:layout_alignBottom="@+id/img_nearby_chat"
+            android:layout_below="@+id/tv_nearby_chat_title"
+            android:layout_toRightOf="@+id/img_nearby_chat"
+            android:text="@string/nearby_chat_desc" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_nearby_discount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin">
+
+        <ImageView
+            android:id="@+id/img_nearby_discount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:background="@drawable/ic_launcher"
+            android:contentDescription="@string/content_description" />
+
+        <TextView
+            android:id="@+id/tv_nearby_discount_title"
+            style="@style/Wrap_text"
+            android:layout_toRightOf="@+id/img_nearby_discount"
+            android:text="@string/nearby_discount"
+            android:textSize="@dimen/text_size_medium" />
+
+        <TextView
+            style="@style/Wrap_text"
+            android:layout_alignBottom="@+id/img_nearby_discount"
+            android:layout_below="@+id/tv_nearby_discount_title"
+            android:layout_toRightOf="@+id/img_nearby_discount"
+            android:text="@string/nearby_discount_desc" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

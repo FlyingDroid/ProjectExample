@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">维度</string>
+    <string name="splash_guide">操作简介</string>
+    <string name="action_exit">退出</string>
+    <string name="action_settings">设置</string>
+    <string name="action_mode">夜间</string>
+    <string name="action_location">位置</string>
+    <string name="action_examine">审稿</string>
+    <string name="action_search">搜索</string>
+    <string name="nearby">附近</string>
+    <string name="discovery">发现</string>
+    <string name="message">消息</string>
+    <string name="user">我</string>
+    <string name="isValue">有用</string>
+    <string name="unValue">无用</string>
+    <string name="comment">评论</string>
+    <string name="wei_du_core">身边的事儿</string>
+    <string name="btn_login">登录</string>
+    <string name="btn_register">注册</string>
+    <string name="nearby_chat">找人聊天</string>
+    <string name="nearby_chat_desc">和附近的人聊天，及时有回复</string>
+    <string name="nearby_discount">附近优惠</string>
+    <string name="nearby_discount_desc">附近有优惠的东西，顺路买回家</string>
+    <string name="today_report">今日报告</string>
+    <string name="nearby_video_desc">了解物价、政策等生活资讯</string>
+
+    <string-array name="lv_drag_menu">
+        <item>首页</item>
+        <item>订阅</item>
+        <item>我的家园</item>
+        <item>知识社区</item>
+        <item>服务频道</item>
+    </string-array>
+
+    <string name="pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="pull_to_refresh_release_label">放开以刷新</string>
+    <string name="pull_to_refresh_refreshing_label">正在载入</string>
+    <string name="pull_to_refresh_from_bottom_pull_label">上拉加载</string>
+    <string name="pull_to_refresh_from_bottom_release_label">松开加载更多</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">正在加载更多</string>
+    <string name="title_section1">首页</string>
+    <string name="title_section2">附近交通</string>
+    <string name="title_section3">互联设备</string>
+    <string name="title_section4">订阅相关</string>
+    <string name="title_section5">服务频道</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="content_description">image view</string>
+    <string name="user_email">zhsheng26@126.com</string>
+    <string name="user_name">张晟</string>
+    <string name="drop_down_list_header_default_text">点击可以刷新</string>
+    <string name="drop_down_list_header_pull_text">下拉可以刷新</string>
+    <string name="drop_down_list_header_release_text">松开可以刷新</string>
+    <string name="drop_down_list_header_loading_text">加载中…</string>
+    <string name="drop_down_list_footer_default_text">更多</string>
+    <string name="drop_down_list_footer_loading_text">加载中…</string>
+    <string name="drop_down_list_footer_no_more_text">没有更多了</string>
+    <string name="title_activity_location">选择城市</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main_activity4">MainActivity4</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_publish">取消</string>
+    <string name="publish">发布</string>
+    <string name="title_activity_infor_detail">正文</string>
+
+</resources>

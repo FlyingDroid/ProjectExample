@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.weidukeji.agriculture.activity.PublishActivity">
+    <item
+        android:id="@+id/action_publish"
+        android:orderInCategory="100"
+        android:title="@string/publish"
+        android:icon="@drawable/navigationbar_publish"
+        app:showAsAction="always" />
+</menu>

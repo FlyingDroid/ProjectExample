@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="holo_blue_dark">#245CC1</color>
+    <color name="action_bar_dark_bg">#3C3F41</color>
+    <color name="action_bar_blue_bg">#2B61C0</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="layout_bg">#E5E5E5</color>
+    <color name="background_light">#30000000</color>
+    <color name="menu_item_text_color">#E60200</color>
+    <color name="background_user_navigation_drawer">#161F29</color>
+    <color name="grey_background">#eeeeee</color>
+    <color name="material_deep_teal_200">#ff80cbc4</color>
+    <color name="gray">#666666</color>
+    <color name="gray_shadow">#cccccc</color>
+    <color name="gray_white_bg">#F9F9F9</color>
+    <color name="black">#000000</color>
+    <color name="actionbar_popu">#4979C1</color>
+
+    <color name="grey_font">#333333</color>
+    <!-- drop down list header font color -->
+    <color name="drop_down_list_header_font_color">#000000</color>
+    <!-- drop down list header second font color -->
+    <color name="drop_down_list_header_second_font_color">#000000</color>
+    <!-- drop down list footer font color -->
+    <color name="drop_down_list_footer_font_color">#000000</color>
+    <color name="red">#FFC93437</color>
+    <color name="blue">#FF375BF1</color>
+    <color name="yellow">#FFF7D23E</color>
+    <color name="green">#FF34A350</color>
+</resources>

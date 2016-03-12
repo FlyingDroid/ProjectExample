@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.weidukeji.agriculture.widget.PullToZoomListView
+        android:id="@+id/lv_user_ptz"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</RelativeLayout>

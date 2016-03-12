@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.weidukeji.agriculture.widget.drawermenu.DragLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_home">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="40dp">
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_wei_du_core"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_marginTop="@dimen/activity_vertical_margin"-->
+            <!--android:text="@string/wei_du_core"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:textSize="@dimen/tv_title_name_size" />-->
+
+        <LinearLayout
+            android:id="@+id/layout_drag_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:orientation="horizontal">
+
+
+            <com.weidukeji.agriculture.widget.CircleImageView
+                android:id="@+id/img_drag_header"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/ic_launcher" />
+
+            <TextView
+                android:id="@+id/tv_drag_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/widget_margin"
+                android:text="@string/app_name"
+                android:textColor="@color/white"
+                android:textSize="@dimen/tv_title_name_size" />
+        </LinearLayout>
+
+
+        <ListView
+            android:id="@+id/lv_drag_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layout_drag_top"
+            android:layout_marginTop="@dimen/widget_margin"
+            android:cacheColorHint="@android:color/transparent"
+            android:listSelector="@drawable/lv_item_drag_menu_bg" />
+
+    </RelativeLayout>
+
+    <com.weidukeji.agriculture.widget.drawermenu.DragMainRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#eeeeee">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/view_main_actionbar" />
+
+            <FrameLayout
+                android:id="@+id/layout_main_content"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.0" />
+
+            <RadioGroup
+                android:id="@+id/radio_group"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/main_bottom_bar_height"
+                android:background="@drawable/navigate_bar_bg"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radio_btn_news"
+                    style="@style/main_tab_bottom"
+                    android:drawableTop="@drawable/selector_main_news"
+                    android:text="@string/nearby" />
+
+                <RadioButton
+                    android:id="@+id/radio_btn_rss"
+                    style="@style/main_tab_bottom"
+                    android:drawableTop="@drawable/selector_main_rss"
+                    android:text="@string/discovery" />
+
+                <RadioButton
+                    android:id="@+id/radio_btn_message"
+                    style="@style/main_tab_bottom"
+                    android:drawableTop="@drawable/selector_main_message"
+                    android:text="@string/message" />
+
+                <RadioButton
+                    android:id="@+id/radio_btn_user"
+                    style="@style/main_tab_bottom"
+                    android:drawableTop="@drawable/selector_main_user_center"
+                    android:text="@string/user" />
+            </RadioGroup>
+
+        </LinearLayout>
+    </com.weidukeji.agriculture.widget.drawermenu.DragMainRelativeLayout>
+</com.weidukeji.agriculture.widget.drawermenu.DragLayout>

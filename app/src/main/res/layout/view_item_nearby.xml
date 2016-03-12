@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_item_bg_normal"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <com.weidukeji.agriculture.widget.CircleImageView
+            android:id="@+id/img_userHeader"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="@dimen/widget_margin"
+            android:background="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tv_userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/img_userHeader"
+            android:text="@string/app_name"
+            android:textColor="@color/grey_font" />
+
+        <ImageView
+            android:id="@+id/img_isConfig"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ic_launcher" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/widget_margin"
+            android:text="惊天消息。合肥今天每人分一套房子，前提条件是女的剃光头，男的留长头发，每个人都必要撒翻了翻啊发的是煎熬了非平顶山极品飞机啊跑 放假安排发简历"
+            android:textColor="@color/grey_font" />
+
+        <ImageView
+            android:id="@+id/img_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/widget_pad">
+
+        <Button
+            android:id="@+id/btn_isValue"
+            style="@style/btn_tool_style"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/toolbar_icon_retweet"
+            android:text="@string/isValue"
+            android:textColor="@color/grey_font" />
+
+        <Button
+            android:id="@+id/btn_notValue"
+            style="@style/btn_tool_style"
+            android:layout_centerInParent="true"
+            android:drawableLeft="@drawable/toolbar_icon_comment"
+            android:text="@string/comment"
+            android:textColor="@color/grey_font" />
+
+        <Button
+            android:id="@+id/btn_comment"
+            style="@style/btn_tool_style"
+            android:layout_alignParentRight="true"
+            android:drawableLeft="@drawable/toolbar_icon_unlike"
+            android:text="@string/unValue"
+            android:textColor="@color/grey_font" />
+    </RelativeLayout>
+
+</LinearLayout>

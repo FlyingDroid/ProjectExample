@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.weidukeji.agriculture.activity.MainActivity4">
+
+
+    <FrameLayout
+        android:id="@+id/layout_main_content"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/main_bottom_bar_height"
+        android:background="@drawable/navigate_bar_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_btn_news"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/selector_main_news"
+            android:text="@string/nearby" />
+
+        <RadioButton
+            android:id="@+id/radio_btn_rss"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/selector_main_rss"
+            android:text="@string/discovery" />
+
+        <RadioButton
+            android:id="@+id/radio_btn_message"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/selector_main_message"
+            android:text="@string/message" />
+
+        <RadioButton
+            android:id="@+id/radio_btn_user"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/selector_main_user_center"
+            android:text="@string/user" />
+    </RadioGroup>
+</LinearLayout>
