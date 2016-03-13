@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/WorkProject.iml" filepath="$PROJECT_DIR$/WorkProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProjectExample.iml" filepath="$PROJECT_DIR$/ProjectExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/ptr-lib/ptr-lib.iml" filepath="$PROJECT_DIR$/ptr-lib/ptr-lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/pull/pull.iml" filepath="$PROJECT_DIR$/pull/pull.iml" />
@@ -11,4 +11,3 @@
     </modules>
   </component>
 </project>
-
